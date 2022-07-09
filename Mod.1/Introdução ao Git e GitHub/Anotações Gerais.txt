@@ -1,0 +1,61 @@
+Daqui pra traz perdeu na queda de enegia :(
+Chave SSH - configurar chave para que a maquina e o git se reconheçam
+para configurar só funciona no GitBash:
+ssh-keygen -t ed25519 -c greicelfreitas@gmail.com
+
+Quando o SSH está configurado na maquina o git clone só funciona utilizando o ssh do git
+
+Token de acesso pessoal - gerar no git e sempre que for usar, no lugar da senha pede um token
+
+//Primeiros comandos do Gir
+Iniciar o Git
+Iniciar o versionamento
+criar um commit:
+git init
+git add .
+git commit -m "First commit"
+
+a flag -a mostra os arquivos ocultos
+
+git config --global user.email "greicelfreitas@gmail"
+git config --global user.name Greice
+
+Markdown - arquivo de escrever em HTML sem conhecer como funcionao HTML
+macardo por md no finl exp. estrogonofe.md
+
+//Passo a passo no ciclo de vida
+
+Git init - criação de um repositório
+git add . - o git nao sabia da existencia de um arquivo e com esse comando enviou para Staged
+Git commit - recebe os arquivos, salva e volta para modified, pronto para modificação de novo
+
+Ambiente de desenvolvimento
+working directory .> staging area -> local repository ->
+
+Servidor
+Remote Repository
+
+git status - vai trazer informações de como está os arquivos
+
+echo > nome_arquivo - cria um arquivo txt dentro da pasta
+-a - visualiza arquivos ocultos
+
+//Trabalhando com o GitHub
+git config --list - para saber todas as configurados que estão no git
+git config --global --unset user.email - para reconfigurar o email, para alterar outra configuração colocar o nome no lugar de email
+git config --global user greice@email
+
+git remote add origin link.com.br
+git origin -v (lista)
+git push origin master
+
+//como os conflitos acontecem no GitHub e como resolvê-los
+
+conflito de marge - quando há uma alteração no github e não tem na sua maquina
+é o momento que dá o:
+git pull origin master
+
+para resolver conflitos, abre,analisa, atualiza e commita novamente
+
+git clone url.com
+
