@@ -1,0 +1,63 @@
+D - Descobrimento
+I - Interatividade  -  Desafio Code Girls Santander
+O - Oportunidade
+
+Dicas
+1- Autonomia
+2- Protagonismo (se vc não fizer, ninguém vai fazer)
+3- Gestão de tempo
+
+#contratoDeCompromisso
+
+Metodologia de um Bootcamp:
+Parte 1: Metodologia de ensino
+Parte 2: Desafios de código: entendendo na prática
+PArte 3: desafios de projeto: entendendo na prática
+Parte 4: Dicas finais conclusão
+
+04 elementos educacionais:
+Cursos; Mentorias; Desafios de código; Desafios de projeto
+
+//Desafios de código na prática
+Desenvolver pensamento computacional e raciocínio lógico
+
+Na plataforma apresenta os desafios que tem para fazer:
+JAVA
+Desafio: Vc receberá dois valores inteiros. Faça a leitura e em seguida calcule o produto entre estes dois valores.
+Atribua a esta operaçao ã variavel PROD, mostrando esta de acordo com a mensagem de saída esperada.
+
+O que é uma entrada?
+é uma informação importante para conseguir entender o problema. Ler e atribuir em alguma váriavel para poder trabalhar.
+conjunto de valores para conseguir resolver o problema.
+No java: a isntacia que da acesso a leitura de um inteiro é um scanner
+A = leitor.nextInt();
+B = leitor.nextInt();
+
+PROD = A * B;
+
+A e B são as váriaveis que precisam serem lidas.
+o PROD (produto) é a multipilicaçao deles.
+
+O que é uma saída?
+O resultado esperado
+
+JAVASCRIPT
+let A = parseInt(gets());
+let B = parseInt(gets());
+
+TODO: (comoler tow.dow) espaço que precisa ser completado
+
+let SOMA = A + B;
+print("SOMA = "+ soma );
+
+//Desafios de projeto
+Promover a criaçao de um portifólio de projetos no GitHub.
+Fork= traz todas as informações do projeto base do repositório original para o meu.
+
+//Dicas finais e conclusão
+Não desista - perfil fica em evidencia sempre que finaliza um bootecamp
+Partipação nos foruns, roomm e mentorias
+Manter o perfil atualizado
+Focar nos questionários e entrega de projetos.
+
+FOCO! #ContratoDeCompromisso

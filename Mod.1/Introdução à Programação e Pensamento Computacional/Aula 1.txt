@@ -1,0 +1,122 @@
+Introdução à programação e pensamento computacional
+Por: Juliana Mascarenhas
+
+Aula 1 - Pensamento Computacional
+//Etapa 1- Introdução - Overview
+
+Está atrelado, mas não se restringe a ciencias exatas e computacional.
+
+Caracteristicas: Sistemático e eficiente (formulaçao e resoluçao de problemas); 
+Sejam capazes de resolver (humanos e máquinas);
+Não é diciplina academica e sim uma habilidade generalista como: matematica/leitura/escrita
+
+baseado em 4 pilares:
+Decomposiçao - pegar um problema complexo dividir e segmentar em problemas menores e resolviveis.
+Reconhecimento de padrões - Identificar similaridades e tendencias.
+Abstraçao - trazer do real para o mundo generalista.
+Design de algoritmos - automatizaçao da resolução de problemas (passo a passo da solução).
+
+Processo continuo - definir soluçao -> testar a soluçao -> aperfeiçoamento da soluçao encontrada
+ou seja, Refinamento -> teste -> analise (olhar de forma circular)
+
+Abstraçao - resoluçao de problemas - (Habilidades humanas)
+Automatizaçao - expressao de soluçao - (Habilidades humanas)
+Analise - execuçao da soluçao e avaliaçao (refinamento) - (Recursos computacionais)
+
+//Etapa 2- Habilidade complementares
+
+Desenvolver estas habildiades - Raciocinio logico e aperfeiçoamento - para resolver problemas
+
+
+Raciocinio lógico é treinamento.
+03 classificações:
+indução - fenomeno observado: leis e teoria - induz que algo acontece a partir de uma observação
+dedução - a partir de leis e teoria prever e explica provando e validando - ciencias exatas
+abdução - a partir de uma conclusão tira a previssa.
+
+inferencia->sintetica - abdução e indução
+inferencia->analitica - dedução
+
+aperfeiçoamento - a partir de uma solução, determina pontos de melhora e refinamento
+*encontrar solução eficiente
+*otimizar processos
+*simplificar linhas de códigos
+*funções bem definidas
+
+Pilar Decomposiçao
+
+Se vc tem um problema que nao pode resolver, vc tem uma problema que é mais facil resolver. Encontre!
+
+Estrategia: 
+-> Processo de quebrar e determinar partes menores e gerenciaveis (analise)
+-> Combinar os elementos recompondo o problema original (síntese)
+-> Ordem de execução de tarefas menores (sequencial-fila); paralelo (eficiena e menos tempo)
+ - Encontrar maneiras distintas de decompor o mesmo problema
+Como decompor?
+-Identificar ou coletar dados - Agrega os dados - Funcionalidade
+Ex.: Criar um app - definição de etapas:
+Finalidade
+interface
+funcionalidades
+pré-requisitos
+
+Pilar - Padrões
+Reconhecimento de padrões - através de similaridades e diferenças
+*modelo de base
+*estrutura invariante
+*repetição
+
+o computador reconhece padrões por COMPARAÇÃO
+Representaçãõ de atributos
+Aprendizado - conceito associado ao objeto
+Armazenar dados
+Regras de decisão
+
+A detecção de padrão vem da extração de caracteristicas, classificando dados
+
+Pilar abstração
+
+Abstrair - observar, um ou mais elementos, avaliando caracteristicas e propriedade em separado
+abstração - processos intelectual de isolamento de um objeto da realidade
+generalizar - tornar-se geral, mais amplo, extensão
+
+Algoritimos
+
+tem que fazer sentido no papel e no codigo
+ desenvolvimento do programa:
+-analise
+  estudo e definição dos dados de entrada
+codificação
+
+->Sequencia de passos com objetivo definido
+->execução de tarefas especificas
+->conjunto de operações que resultam em uma sucessão finita de ações
+
+como construir um algoritmo?
+compreenção do problema
+definição dados de entrada
+definir processamento
+definir dados de saída
+utilizar um metodo de construção e refinamento
+teste e diagnostico
+
+-narrativa ->utilização da linguagem natural
+-fluxograma ->utilização de simbolos pré definidos -estrutura grafica
+-pseudocódigo ->portugol - regras definidas - ainda nao é lingagem de programação é o meio termo
+
+Estudo de caso conceitual: perdido na mata
+identificar mecanismos
+recursos comuns
+detalhes mais importantes
+
+Estudo de caso aplicado: soma de um intervalo
+Ex. soma de n entre 1 e 200 (intervalo)
+200 +1 Decomposição     = 201 Padrao
+199+2      = 201
+198+3..    = 201 ..
+Valor se repete e quantas vezes se repete
+200/2=100
+Resultado: 201X100=
+
+Estudo de caso aplicado: adivinhe o numero
+perguntas inteligentes

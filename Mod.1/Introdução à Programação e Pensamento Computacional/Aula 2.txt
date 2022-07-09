@@ -1,0 +1,26 @@
+Aula 2: Introdução a lógica de programação
+O que é lógica?
+a logica vem para solucionar algum problema.
+"problema é uma questao que foge a determinada regra"
+Logica: Organização e planejamento das instruções, assertivas em um algoritmo, a fim de viabilizar a implanação de um programa".
+
+Tecnicas de logica de programação
+Tecnica Linear:
+Modelo tradiconal; nao tem vinculo: estrutura hierarquica e programação de computadores
+Execução sequenciada;
+recursos limitados e unica dimensão
+Ex. Acordar fazer café e tomar cafe
+
+Tecnica extruturada
+processamento de dados:
+escrita; entendimento; validação; manutenção
+nao é linear, tem mais de uma opção
+Ex. Acordar fazer café ou suco e tomar um dos dois
+
+Tecnica modular
+Partes independentes, controladas por conjunto de regras
+Dados de entrada -> processo de transformação -> dados de saída
+metas-> simplificação; decompor problemas; verificação por modulo
+Ex. Modulo preparar acordar (regras) - Modulo preparar a bebida (regras) - Modulo tomar cafe da manha (regras)
+
+

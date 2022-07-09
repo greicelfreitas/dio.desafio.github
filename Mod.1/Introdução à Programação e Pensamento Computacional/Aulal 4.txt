@@ -1,0 +1,101 @@
+Aula 4 - Linguagem de programação
+
+//Etapa 1 -Introdução a linguagem de programação
+Toda evolução tecnologica inicia pelo hardware e depois pelo software
+durante a segunda guerra mundial houve grande investimento na tecnologia
+1949-Primeira linguagem de programação (linguagem de maquina)
+->assembly
+anos 50 - linguagens de fato de programação
+90 - C# javascript java ruby ...
+
+Uma das maiores dificuldades é gerenciamento de grandes bancos de dados
+
+Problemas de decisao - carater logico: sim ou nao; ideia; pertencimento
+Ex. Dado um numero n inteiro positivo, determine se n é primo
+
+problemas de busca - Relacionamento binário; objetivo:semelhante ao nome ou x está em m A; recporrente em teoria de graficos
+
+problemas de otimização - objetijo, aplicações
+
+Liguagem de programação: metodo padronizado composto por um conjunto de regras e semanticas de implementação de um condigo de fonte.
+*conjunto de regras
+código fonte: traduzido ou interpretado
+
+//Etapa 2 - como um computador entende um programa
+
+um programam é um amontoado de palavras senao for possivel que o computador entenda o processo é nulo
+Assim:
+Linguagem de alto nível é enviado para um compilador (executa a analise do programa)
+assim, o compilado vai traduzir para uma linguagem de baixo nível (linguagem de maquina)
+o nome para linguagem de baixo nível é conhecido como programa objeto.
+Processo de tradução:
+Programa fonte (linguagem de alto nível) -> Compilador -> Programa Objeto (linguagem de maquina)
+
+Tradução: Geração do programa objetvo e Execução do programa objeto
+execução mais rápida e programas menores
+Java C++
+
+Interpretação: Programa fonte executado diretamente (torna o processo lento)
+Mais fácil de se trabalhar; maior flexibilidade
+Ruby JavaScript Pyton
+
+//Etapa 3 - Caracteristicas de um programa
+
+Desenvolvimento de programas tem diretrizes para codificar:
+*Lebilidade
+Facilidade de leitura, comprrensao, ortogonalidade (coerente), definição adequada das estruturas
+
+*Redigibilidade
+Pode conflitar com a lebilidade*, ortogonalidade, simplicidade da escrita, suporte a abstração, reuso do codigo, expressividade (enteder o qe o codigo quer dizer)
+
+*Confiabilidade
+Possui: verificação de tipos, trata exceções, uso de ponteiros, compatibilidade entre compiladores -fazo que foi programado para fazer
+
+*Custo
+Possui: treinamento, codificação, compilação, execução, infra-estrutura - analise de impacto
+
+- caracteristicas: atualizações; uso para IA; disponibilidade de ferramentas; comunidade ativa; adoção pelo mercado
+
+//Etapa 4- analises de codigo
+
+Quando o código fonte vai para o compilador ele pode seguir 3 caminhos:
+Analise lexica - conhecida como scanner ou leitura. Primeira fase. 
+Particionar->identificar os elementos tokes e agrupa-los
+classificar->
+eliminar-> caracteres em branco, comentarios..
+
+analise sintatica -> forma que define atraves de palavras reservadas.., estrutura reservada para codificação dentro daquela linguagem
+padra-gramatica
+
+analise semantica-> relacionada ao significado
+erro de semantica está relacionado a logica do programa, procurar de linha a linha
+
+//Etapa5- Paradgmas da programação
+Paradgma: forma de resolução de problemas, com diretizres e limitações especificas.
+
+Classificação:
+orientação a objeto
+procedual- 
+funcional-
+estruturado-
+computação distribuida- funções executadas de forma independente
+logico-
+
+mais utlizados sao orientação a objeto e estruturado: C e java
+
+paradgma estruturado: sequencia; decisão; iteração
+enfase em sequencia
+decisão está relacionao ao teste logico
+ineração está relacionado a funcões...
+
+C é utilizado pq é mais baixo nivel, mais dificil de programa, mas bom para aprender por ele
+
+orientação a objeto - analogo ao mundo real
+o que tenho / sou capaz de fazer / como faço
+Classe (atribulos)    /  comportamento (metodos)    / estados
+Ex. modelo /   escrever / tampada
+
+Pilares:
+Herança: classe filho herda caracteristicas da classe mãe
+filha: mas podem ter caracteristicas e comportamentos próprias
+

@@ -1,0 +1,105 @@
+Aula 3 - Fundamentos de algoritimos
+
+Etapa1-Tipologia e variaveis
+Qual função do computador? Informação! Através de dados e instruções
+Dados: numericos - inteiros e reais
+tipo númerico
+Tipo Caractere - tem limite
+tipo lógico - booleano (verdadeiro ou falso)
+
+Para usar esses dados tempo de programas sao usados atraves de variavel
+variavel é uma estrutura mutavel e inconstante, podendo ser mais de um valor
+
+Constante - inalteravel, nao muda, ou seja tudo aquilo que é fixo ou estável.
+
+instruções - operações que vao processar os dados
+
+Instruções primitivas
+calculos matemáticos
+Variáveis e constante = operadores binarios e unário
+instruções primitivas possuem uma sintaxe particilar dentro de casa linguagem de programação
+
+Estruturas condiconais e operadores
+Dado ou estado de alguma pessoa ou coisa ah uma condição.
+
+dado uma condição que foi satisfeita é executada, caso contraio acarreta em excessão
+Estruturas:
+simples - condição satisfeita
+composta - excessão
+encadeada - se ; se não .. um dentro do outro
+
+operadores: =; <>; >; <; >=; <=
+
+Ex. Simples
+Se (<condição>) então 
+    <instruções para condição verdadeira>
+fim_se
+
+Composta
+dado uma condição que nao foi satisfeita joga um
+"se não"
+Se (<condição>) então 
+    <instruções para condição verdadeira>
+senão
+    <instruções para condição falsa>
+fim_se
+
+Encadeado
+condições sucessidas
+Se (<condição1>) então 
+    <instruções para condição verdadeira>
+senão
+   (<condição2>) então
+    <instruções para condição2 verdadeira e condição 1 falsa>
+senão
+   <instruções para condição 1 e 2 falsa>
+fim_se
+
+Operadores logicos
+And / Or (união) / Not (negação) - vem da algebra boleana
+
+Quando usar?
+respostas verdadeiro ou falso
+
+//Estrututas de repetição
+ira executar um trexo de programa diversas vezes.
+precisa de condição de parada para nao entrar em lupen
+
+vantagem de usar: redução de linhas; compreensao facilitada; redução de erro
+
+Enquanto .. faça (enquanto houver grama,)
+Repita .. até    (eu corto a grama)
+Para .. de .. até .. faça 
+
+Enquanto - teste no inicio e numero de repetições indefinidos
+Repita - teste no final e numero de repetições indefinidos
+Para.. de.. até  - teste no inicio e numero de repetições definidos
+
+é possivel usar uma dentro condição dentro da outra.
+
+//Vetores e matrizes - etapa 5
+
+
+//Funções - etapa 6
+sao blocos de instruções, identificados por nomes e parametros
+-modularização do programa
+-código mais claro e conciso
+-reutilização de instruções
+
+Definição -> nome da função -> invocação dafunção -> variavel local (destruir ao encerrar a ffunção)
+
+Os dados sao enviados para  função e a função entrega o resultado da operação
+ou seja, ela altera o estado do programa
+
+Vantagem de usar função= *Reutilização de código*
+
+//Instruções de entrada e saída - etapa 7
+
+Dados - Processamento - Resultado
+
+existem dois tipos de saidas:
+saida programada
+saida por interrupção
+Casos: bem sucedida; erro de sintaxe ou outro; erros de programação; problemas com a interface
+
+
