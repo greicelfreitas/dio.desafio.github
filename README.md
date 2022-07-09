@@ -1,6 +1,7 @@
 # Desafio número 01 [DIO](https://www.dio.me/) - Bootcamp Santander Code Girls
 
 O desafio consiste em criar um Repositório no GitHub, sobre o que está sendo abordado no Bootcamp.
+Ao finalizar cada curso as anotações serão atualizadas no GitHub.
 
 ## Módulo 1 - Princípios de Desenvolvimento de Software
 
