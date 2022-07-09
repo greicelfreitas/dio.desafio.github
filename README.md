@@ -11,7 +11,7 @@ Introdução à Programação e Pensamento Computacional
 ### 2º Curso :heavy_check_mark:
 Introdução ao Git e GitHub
 
-### 3º Curso
+### 3º Curso :heavy_check_mark:
 Desafio Git/GitHub
 
 ## Módulo 2 - Começando a Programar em Java
